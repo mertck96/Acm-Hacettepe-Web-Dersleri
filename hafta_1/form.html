@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <title>ACM Hacettepe Web Dersleri</title>
+  </head>
+
+  <body>
+    <form action="/islem.php">
+
+      Isim:<br>
+      <input type="text" name="firstname" placeholder="Enter your Name">
+      <br> sifre:
+      <br>
+      <input type="password" name="lastname" placeholder="Sifre">
+      <br><br>
+      <input type="radio" name="cinsiyet" value="erkek" checked> Male<br>
+      <input type="radio" name="cinsiyet" value="kadin"> Female<br>
+      <input type="radio" name="cinsiyet" value="diger"> Other <br>
+
+      <select name="araba">
+        <option value="volvo">Volvo</option>
+        <option value="bmw">BMW</option>
+        <option value="fiat">Fiat</option>
+        <option value="audi" selected>Audi</option>
+      </select>
+      <br><br>
+
+      <textarea
+      name="message" rows="6" cols="30"
+      placeholder="Ozel mesajinizi giriniz...">
+      </textarea>
+
+      <br>
+      <input type="checkbox" name="tasit1" value="Araba">Arabam var<br>
+      <input type="checkbox" name="tasit2" value="Bisiklet">Bisikletim var
+      <input type="submit" value="Gonder">
+
+    </form>
+  </body>
+
+</html>
